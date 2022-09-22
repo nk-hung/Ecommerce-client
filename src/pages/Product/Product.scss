@@ -50,11 +50,64 @@
       display: flex;
       align-items: center;
     }
+
     .filter_color {
       width: 30px;
       height: 30px;
       border-radius: 50%;
       background-color: aqua;
+      margin: 0px 5px;
+      cursor: pointer;
+    }
+  }
+
+  .add_container {
+    // width: 50%;
+    display: flex;
+    justify-content: start;
+    margin: 10px 0;
+    column-gap: 50px;
+
+    .amount_container {
+      display: flex;
+      justify-content: start;
+      column-gap: 20px;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+
+      .remove,
+      .add {
+        width: 20px;
+        height: 20px;
+        // border: 1px solid #000;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .cart_amount {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid teal;
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+      }
+    }
+
+    .btn_add {
+      padding: 4px 12px;
+      border: 1px solid #000;
+      background-color: #fff;
+      cursor: pointer;
+      font-weight: 700;
+
+      &:hover {
+        background-color: rgb(223, 182, 129);
+        color: #fff;
+      }
     }
   }
 }

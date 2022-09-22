@@ -36,16 +36,21 @@ const Product = () => {
               <div className='filter_color'>Black</div>
             </div>
             <div className='filter'>
-              <Select defaultValue={"size"} style={{ width: 80 }}>
-                <Option value='size' disabled>
-                  Size:
-                </Option>
+              <Select defaultValue={"S"} style={{ width: 80 }}>
                 <Option value='S'>S</Option>
                 <Option value='M'>M</Option>
                 <Option value='L'>L</Option>
                 <Option value='SL'>SL</Option>
               </Select>
             </div>
+          </div>
+          <div className='add_container'>
+            <div className='amount_container'>
+              <div className='remove'>+</div>
+              <div className='cart_amount'>1</div>
+              <div className='add'> - </div>
+            </div>
+            <button className='btn_add'>ADD TO CART</button>
           </div>
         </div>
       </div>
