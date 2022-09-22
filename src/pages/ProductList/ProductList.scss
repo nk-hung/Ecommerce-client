@@ -1,0 +1,25 @@
+.filter {
+  margin: 20px;
+
+  .title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .filter_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .filter_wrapper {
+      display: flex;
+
+      .filter_text {
+        font-size: 20px;
+        font-weight: 600;
+        margin-right: 20px;
+      }
+    }
+  }
+}

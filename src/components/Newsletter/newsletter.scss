@@ -1,0 +1,41 @@
+.newsletter {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: antiquewhite;
+
+  .title_nlt {
+    font-size: 64px;
+    font-weight: 700;
+  }
+
+  .desc_nlt {
+    font-size: 30px;
+    font-style: italic;
+  }
+
+  .input_group {
+    display: flex;
+    width: 40%;
+
+    .btn_nlt {
+      background-color: #fff;
+      border: 1px solid #c7c7c7;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 18px;
+      color: #c7c7c7;
+
+      &:hover {
+        border: 1px solid #36a7f1;
+        box-shadow: rgba(54, 167, 241, 0.3) 0px 0px 1px 1px;
+
+        .btn_style {
+          color: #36a7f1;
+        }
+      }
+    }
+  }
+}
